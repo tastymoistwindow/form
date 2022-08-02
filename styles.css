@@ -1,1 +1,13 @@
-test
+:root { --green: rgb(152, 255, 157);
+        --blue:  rgb(66, 167, 255);
+        --white: white;
+}
+
+.nav_bar {background-color: var(--blue); 
+    width: 50%;
+display: flex;
+flex-wrap:wrap;
+align-content: center;
+}
+.nav_links {display: flex;align-items: flex-start;}
+.nav_search {display: flex; align-content: flex-end;}
