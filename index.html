@@ -22,6 +22,7 @@
             </div>
             <div class="nav_search">
             <input type="text" placeholder="Search Courses">
+            <a class="search_btn"  href="https://img.icons8.com/sf-regular/344/search.png"></a>
             </div>
             </nav>
         </header>
@@ -54,13 +55,16 @@
         </div>
         <div class="step3">
             <h2>Step 3: Card Details</h2>
+            
             <p>Card type</p>
-            <ul>
-                   <li>Visa</li> 
-                   <li>AmEx</li>
-                   <li>Mastercard</li>
-            </ul>
-    
+            
+            <input type="radio" id="visa" name="card_type" value="Visa">
+            <label for="html">Visa</label>
+            <input type="radio" id="amex" name="card_type" value="AmEx">
+            <label for="css">AmEx</label>
+            <input type="radio" id="mastercard" name="card_type" value="Mastercard">
+            <label for="Mastercard">Mastercard</label> <br>
+            
             <label for="card_number">Card number</label>
             <input type="text" id="card_number" name="card_number"> <br>
             <label for="security_code">Security code</label>
