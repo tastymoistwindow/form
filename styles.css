@@ -1,13 +1,46 @@
 :root { --green: rgb(152, 255, 157);
-        --blue:  rgb(66, 167, 255);
+        --blue:  rgb(9, 132, 240);
         --white: white;
+        --dgreen: green;
+        --lgreen: rgb(204, 255, 207);
+        --siena: #d49c66;
 }
 
 .nav_bar {background-color: var(--blue); 
-    width: 50%;
 display: flex;
-flex-wrap:wrap;
-align-content: center;
+justify-content: space-between;
+align-items: center;
+position: sticky;}
+
+.nav_links a {text-decoration: none; 
+    color: var(--white); 
+    padding: 20px;}
+
+
+.nav_links a:hover {background-color: var(--white); 
+    color: black;}
+
+.search_box {padding: 10px 20px 10px 20px; } 
+
+.search_txt{
+    border-radius: 30px;
+    border-color: none;
+    border-style: none;
+    width: 300px;
+    height: 30px;    }
+
+.search_btn {background-color: none; 
+    filter: invert(1); 
+    height: 20px; 
+    width: auto;
+    padding-left: 5px;}
+
+   
+
+.progress_bar {
+    background-color: var(--siena);
+    margin: 5px 100px 5px 100px;
+    height: 100px;
+    width: 500px;
+
 }
-.nav_links {display: flex;align-items: flex-start;}
-.nav_search {display: flex; align-content: flex-end;}
